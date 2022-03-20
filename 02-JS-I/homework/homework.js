@@ -151,7 +151,8 @@ function elevarAlCuadrado(num) {
 function elevarAlCubo(num) {
   // Devuelve el valor de "num" elevado al cubo
   // Tu código:
- 
+ let resultado = num * num * num;
+ return resultado;
 }
 
 function elevar(num, exponent) {
