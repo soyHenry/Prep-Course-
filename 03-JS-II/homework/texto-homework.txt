@@ -1,0 +1,40 @@
+Homework JS II
+
+1. FOR
+for se utiliza para repetir determinada cantidad de veces alguna intruccion que damos. Para usarla debemos saber la cantidad de veces que queremos hacerla
+para que no se arme un bucle infinito
+
+
+
+2.
+
+&& (and) 
+se utiliza para agregar alguna condicion a una ya existente 
+ej 
+if ( i < 100 && i > 1 ) {
+  return i
+}
+
+*en este caso nos devolvera el valor de i si esta entre 1 y 100
+
+
+
+
+|| (or )
+ se utiliza para poner varias condiciones a 
+ej
+if ( i === 5 || i === 10 ) {
+  return true
+}
+
+*en este caso nos devolvera true si i es 10 o 5 
+
+
+! (NOT)
+
+not niega el valor que le sigue... !true = false 
+pero tambien podria ser !!true = true (porq se cambio dos veces su valor por lo tanto volvio al inicio)
+
+
+
+
