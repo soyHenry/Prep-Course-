@@ -1,0 +1,39 @@
+Explicaciones 
+
+1. Variables:
+	Las variables son elementos en a los que se les asigna un valor y este es almacenado 
+se expressan de la siguiente manera : nombredelavariable = valor
+
+2. Strings:
+	Los strings son lineas de texto. Se deben escribir entre comillas.
+Todos los caracteres encerrados entre estas comillas son tomados como texto sin importar si son numeros
+simbolos, etc.
+ej "vivo en la calle bolivar 232"
+
+3. Funciones:
+	Las funciones son operaciones. para realizar estas operaciones debemos definirle (o no) parametros y luego 
+definir que hacer con esos parametros.
+se expresan de la siguiente manera.
+function (parametro, parametro) {declaracion/es}
+la funcion en si misma no devuelve ningun valor a menor que lo especifiquemos mediante RETURN.
+ej: 
+	function valorReal(num, num2) { 
+          return num + num2
+        }
+
+aqui el valor real se representa devolviendo la suma de dos parametros.
+
+4. if
+     La funcion si declara lo que deberia ocurrir en el caso de cumplirse una condicion y lo que deberia ocurrir 
+en el caso de que no se cumpla (else) las funciones if pueden encerrar otras funciones if dentro de ellas
+es decir que se pueden anidar
+
+	if (num < 2000) {
+	  console.log("puede pagarse")
+	} else {
+	  console.log ("debe financiarse")}
+
+5. Booleanos
+ 	Son declaraciones que devuelven como respuesta "True"(verdadero) o "False" (Falso)
+    ej: 10 < 20 = True
+         (aqui se plantea que 10 es menor que 20 ..por lo tanto devuelve el valor como verdadero)
