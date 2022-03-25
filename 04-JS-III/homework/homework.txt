@@ -1,0 +1,4 @@
+﻿Arrays (arreglos)
+Los arrays son en otras palabras variables que guardan mas de un dato.
+Pueden guardar desde strings, números, booleanos, y funciones ..hasta otras arrays. Como una suerte de anidado de arrays.
+Son muy útiles sobre todo para recorrer varios datos aplicandole alguna condición dada en un bucle.
