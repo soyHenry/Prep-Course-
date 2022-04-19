@@ -1,0 +1,48 @@
+h1 {
+	color: orange;
+	display: flex;
+	justify-content: center;
+}
+h3 {
+	color: white;
+	display: flex;
+	justify-content: center;
+}
+h4 {
+	color: white;
+	display: flex;
+	justify-content: center;
+}
+img{
+	width: 400px
+}
+div span {
+	color: white;
+	display: flex;
+	justify-content: center;
+}
+div a {
+	display: flex;
+	justify-content: center;
+}
+#thirdDiv{
+	width: 500px; 
+	height: 600px;
+	background-color: chocolate;
+	position: relative;
+	left: 550px
+}
+
+#spanId {
+	font-size: 18px;
+	margin: 50px
+}
+.divClass{
+	padding: 50px;
+	border: 5px solid red;
+	
+}
+
+body {
+	background-image: url(https://i.pinimg.com/originals/8e/6a/3a/8e6a3abf307278f940c02072d8ae46e8.jpg);
+}
