@@ -1,0 +1,38 @@
+# Homework: Javascript IV
+
+## Instrucciones Realizadas
+---
+1. En un archivo de texto separado que debes crear, escribe explicaciones de los siguientes conceptos como si se lo estuvieras explicando a un niño de 12 años. Hacer esto te ayudará a descubrir rápidamente cualquier agujero en tu comprensión.
+
+	* Objetos
+/*
+Es una forma muy común en Javascript de representar elementos de la vida real.
+EJ: representar a una persona y sus cualidades. var persona = {nombre: 'Carlos', apellido: 'Carmona', edad:35}
+*/
+
+	* Propiedades
+/*
+Es la forma con la que se representan las caracteristicas de un objeto.
+EJ: var persona = {nombre: 'Carlos', apellido: 'Carmona', edad:35}
+En el anterior ejemplo, para representar a una persona, sus caracteristicas serían (nombre, apellido y edad). 
+*/
+
+	* Métodos
+/*
+Es un fragmento de código que realiza una función específica.
+EJ: function sumatoria (a, b){let sum = a + b; return sum;}
+*/
+
+	* Bucle `for…in`
+/*
+Es un fragmento de código que realiza una operación repetitiva hasta que se cumpla una determinada condición.
+EJ: for(let i=0; i<10; i++){console.log("Hola Mundo")} - Ese bucle imprime 10 veces la frase Hola Mundo
+*/
+
+	* Notación de puntos vs notación de corchetes
+/*
+La primera notación es mas fácil de escribir pero puede tener confusiones en ciertos contextos.
+EJ: function getEdad(){return this.edad;}
+La segunda notación es un poco mas compleja de escribir pero no se presta para tantas confusiones.
+EJ: function getEdad(){return getEdad['edad'];}
+*/
