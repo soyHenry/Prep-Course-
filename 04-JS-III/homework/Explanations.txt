@@ -6,5 +6,6 @@
 
   /*
 Los arreglos son variables que almacenan colecciones de datos sin importar su tipo
+Se puede asimilar a un armario donde en cada cajón se meten objetos sin importar su denominación
 Ejemplo: array [1,2,3,"a","b","c"]
 */
