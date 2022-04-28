@@ -1,0 +1,41 @@
+## Instrucciones Realizadas
+
+1. En un archivo de texto separado que debes crear, escribe explicaciones de los siguientes conceptos 
+como si se lo estuvieras explicando a un niño de 12 años. 
+Hacer esto te ayudará a descubrir rápidamente cualquier agujero en tu comprensión.
+
+ * Variables
+/*
+Las variables son objetos que almacenan valores que cambien con el tiempo
+dependiendo de lo que el programador deposite en ellas, a esto se le conoce como (asignación de variables).
+Ejemplo: Cuando en un vaso yo puedo depositar agua, jugo o cualquier otra cosa depende de que
+sea lo que la persona quiera depositar ahí y en cualquier momento, puede cambiar su contenido por otro.
+*/
+
+ * Strings
+/*
+Son tipos de datos que almacenan cadenas de texto.
+Ejemplo: todo lo que se ponga "entre comillas" es una cadena de texto o string
+*/
+
+ * Funciones (argumentos, `return`)
+/*
+Son objetos que realizan un determinado proceso y que puedo llamar en cualquier momento.
+Ejemplo: cuando tengo 2 variables que calculan el área de un rectángulo y las almaceno
+dentro de una función para llamarla cada vez que necesite realizar dicha operación.
+*/
+
+ * Declaraciones `if`
+/*
+Son objetos que me permiten evaluar si una condición se cumple o no.
+Ejemplo: Cuando quiero evaluar si el número 7 es mayor que el número 5,
+se usa un condicional if para evaluar los valores y para este caso la evaluación resultaría cierta.
+*/
+
+ * Valores booleanos (`true`, `false`)
+ /*
+Son tipos de datos que solo almacenan 2 valores (0 ó 1) que es lo mismo que decir (false ó true).
+Ejemplo: cuando tengo una condición como la anterior if que solo me devuelve un valor de cierto o falso
+ahí se puede usar una variable de tipo boolean para que me devuelva 
+si la condición evaluada es cierta o falsa
+*/

@@ -1,0 +1,27 @@
+## Instrucciones Realizadas
+---
+1. En un archivo de texto separado que debes crear, escribe explicaciones de los siguientes conceptos 
+como si se lo estuvieras explicando a un niño de 12 años. 
+Hacer esto te ayudará a descubrir rápidamente cualquier agujero en tu comprensión.
+
+* `for`
+/*
+Es una sentencia que me permite ejecutar una porción de código cuantas veces lo necesite
+sin tener que repetir dicho código manualmente.
+Ejemplo: imprimir los numeros del 1 al 100 sin tener que realizar 100 instrucciones para ello
+*/
+
+* `&&`, `||`, `!`
+/*
+&& se usa para incluir 2 o mas condiciones verdaderas en una sentencia 
+(todas las condiciones se tienen que cumplir)
+Ejemplo: if(edad>18 && estarura >=180){...}
+
+|| se usa para incluir 2 o mas condiciones en una sentencia en la que una de las dos debe ser verdadera
+(1 de las condiciones debe cumplirse)
+Ejemplo: if(edad>18 || estarura >=180){...}
+
+! indica negación en la sentencia
+Si el simbolo ! esta por fuera de un parentesis, se evalua primero lo de adentro y luego la negación
+Ejemplo: if!(edad===18){...}
+*/
