@@ -1,0 +1,51 @@
+# Homework: Javascript V
+
+## Instrucciones Realizadas
+---
+1. En un archivo de texto separado que debes crear, escribe explicaciones de los siguientes conceptos 
+como si se lo estuvieras explicando a un niño de 12 años. Hacer esto te ayudará a descubrir rápidamente 
+cualquier agujero en tu comprensión.
+
+* `prototype`
+/*
+Es una plantilla que permite reutilizar las funcionalidades de un método para evitar recrearlo en memoria 
+cada vez que se vaya a hacer uso de este.
+Ej: Cuando creamos un objeto o clase llamada Auto con propiedades marca y color y a esa clase 
+le creamos 2 prototipos.
+
+function Auto(marca,direccion){
+    this.marca;
+    Auto.prototype.direccion = function(){
+        return "Soy un " + this.marca + "i voy hacia " + this.direccion;
+    }
+}
+  let audi = new Auto('audi','adelante')
+  let toyota = new Auto('audi','atras')
+  console.log(audi.direccion());//Soy un audi y voy hacia adelante
+  console.log(toyota.direccion());//Soy un toyota y voy hacia atrás
+  En este caso, estamos usando el prototipo como una función que se invoca desde 2 objetos distintos
+  pero que solo se crea una vez en memoria por tener las características de un prototype.
+*/
+
+* _Constructors_ (de Clases)
+/*
+Es una plantilla que representa una o varias caracteristicas de un objeto o clase, las clases son usadas
+con frecuencia para evitar reescribir o copiar código, por lo que las clases optimizan la cantidad de código 
+escrito al representar una o varias caracteristicas de muchos objetos con el fin de usar dichas caracteristicas 
+dirigiendonos solo a su apuntador y no recreando el código nuevamente.
+Ej: 
+function Auto(marca,color){
+    this.marca;
+    this.color; 
+    this.presentacion = function(){
+        return "Soy un " + this.marca + "de color" + this.color;
+    }
+}
+const audi = new Auto ('audi','gris')
+const renault = new Auto ('renault','blanco')
+
+  console.log(audi.presentacion)());//Soy un audi de color gris
+  console.log(renault.presentacion());//Soy un renault de color blanco
+  En este ejemplo estamos creando una sola clase con sus caracteristicas pero usandolas con 2 objetos distintos
+  sin tener que escribir un metodo por cada objeto.
+*/
